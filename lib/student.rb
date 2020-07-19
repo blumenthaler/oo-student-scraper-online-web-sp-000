@@ -9,7 +9,7 @@ class Student
   #  adds that new student to the Student class' collection of all existing students, stored in the `@@all` class variable
     student_hash.each do |student|
       @name = student[0]
-      
+      @location = student[1]
     end
     
   @@all << self

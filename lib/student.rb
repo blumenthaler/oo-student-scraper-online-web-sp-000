@@ -12,7 +12,7 @@ class Student
 
   def self.create_from_collection(students_array)
     # uses the Scraper class to create new students with the correct name and location
-    # iterate over hash, create new student
+    # iterate over hash, create new student(use initialize?)
     
     
   end

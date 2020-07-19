@@ -6,6 +6,9 @@ class Student
 
   def initialize(student_hash)
     
+  # takes in an argument of a hash and sets that new student's attributes usingthe key/value pairs of that hash
+  #  adds that new student to the Student class' collection of all existing students, stored in the `@@all` class variable
+    
   end
 
   def self.create_from_collection(students_array)

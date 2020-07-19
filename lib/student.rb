@@ -21,8 +21,9 @@ class Student
     # iterate over hash, meta-program to dynamically assign student attrs and values, per the key/value pairs
     # use send, use self
     self.send("bio=", attributes_hash[:bio])
-    
-    
+    self.send("twitter=", attributes_hash[:twitter])    
+    self.send("linkedin=", attributes_hash[:linkedin])
+    self.send("github", attributes_hash[:github])    
   end
 
   def self.all

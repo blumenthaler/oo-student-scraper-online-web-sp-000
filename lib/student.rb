@@ -20,6 +20,8 @@ class Student
     # uses the Scraper class to get a hash of a given students attributes and uses that hash to set additional attributes for that student
     # iterate over hash, meta-program to dynamically assign student attrs and values, per the key/value pairs
     # use send, use self
+    
+    
   end
 
   def self.all

@@ -23,7 +23,7 @@ class Student
     self.send("bio=", attributes_hash[:bio])
     self.send("twitter=", attributes_hash[:twitter])    
     self.send("linkedin=", attributes_hash[:linkedin])
-    self.send("github", attributes_hash[:github])    
+    self.send("github=", attributes_hash[:github])    
     self.send("blog=", attributes_hash[:blog])    
     
   end

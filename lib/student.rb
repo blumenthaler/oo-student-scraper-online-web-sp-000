@@ -5,10 +5,10 @@ class Student
   @@all = []
 
   def initialize(student_hash)
-  self.send("name=", student_hash[:name])
-  self.send("location=", student_hash[:location])
+    self.send("name=", student_hash[:name])
+    self.send("location=", student_hash[:location])
     
-  @@all << self
+    @@all << self
   end
 
   def self.create_from_collection(students_array)

@@ -9,7 +9,7 @@ class Student
   #  adds that new student to the Student class' collection of all existing students, stored in the `@@all` class variable
     
     
-  @@all  << self
+  @@all << self
   end
 
   def self.create_from_collection(students_array)

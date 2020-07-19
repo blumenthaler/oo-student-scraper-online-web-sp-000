@@ -9,6 +9,7 @@ class Student
   #  adds that new student to the Student class' collection of all existing students, stored in the `@@all` class variable
   
   self.send("name=", student_hash[:name])
+  self.send("location=", student_hash[:location])
     
   @@all << self
   end

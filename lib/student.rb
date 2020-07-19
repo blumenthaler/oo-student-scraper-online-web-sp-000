@@ -18,6 +18,7 @@ class Student
 
   def add_student_attributes(attributes_hash) # Scraper.scrape_profile_page hash
     # uses the Scraper class to get a hash of a given students attributes and uses that hash to set additional attributes for that student
+    
   end
 
   def self.all

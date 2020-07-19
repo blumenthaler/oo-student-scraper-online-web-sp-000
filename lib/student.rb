@@ -13,8 +13,9 @@ class Student
   def self.create_from_collection(students_array)
     # uses the Scraper class to create new students with the correct name and location
     # iterate over hash, create new student(use initialize?)
-    
-    
+    students_array.each do |student_hash|
+      initialize(student_hash)
+    end
   end
 
   def add_student_attributes(attributes_hash)
